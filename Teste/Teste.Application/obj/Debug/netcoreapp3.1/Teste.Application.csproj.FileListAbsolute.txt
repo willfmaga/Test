@@ -1,0 +1,11 @@
+C:\Users\william.magalhaes\source\repos\Teste\Teste.Application\bin\Debug\netcoreapp3.1\Teste.Application.deps.json
+C:\Users\william.magalhaes\source\repos\Teste\Teste.Application\bin\Debug\netcoreapp3.1\Teste.Application.dll
+C:\Users\william.magalhaes\source\repos\Teste\Teste.Application\bin\Debug\netcoreapp3.1\Teste.Application.pdb
+C:\Users\william.magalhaes\source\repos\Teste\Teste.Application\bin\Debug\netcoreapp3.1\Teste.Domain.dll
+C:\Users\william.magalhaes\source\repos\Teste\Teste.Application\bin\Debug\netcoreapp3.1\Teste.Domain.pdb
+C:\Users\william.magalhaes\source\repos\Teste\Teste.Application\obj\Debug\netcoreapp3.1\Teste.Application.csprojAssemblyReference.cache
+C:\Users\william.magalhaes\source\repos\Teste\Teste.Application\obj\Debug\netcoreapp3.1\Teste.Application.AssemblyInfoInputs.cache
+C:\Users\william.magalhaes\source\repos\Teste\Teste.Application\obj\Debug\netcoreapp3.1\Teste.Application.AssemblyInfo.cs
+C:\Users\william.magalhaes\source\repos\Teste\Teste.Application\obj\Debug\netcoreapp3.1\Teste.Application.csproj.CopyComplete
+C:\Users\william.magalhaes\source\repos\Teste\Teste.Application\obj\Debug\netcoreapp3.1\Teste.Application.dll
+C:\Users\william.magalhaes\source\repos\Teste\Teste.Application\obj\Debug\netcoreapp3.1\Teste.Application.pdb
