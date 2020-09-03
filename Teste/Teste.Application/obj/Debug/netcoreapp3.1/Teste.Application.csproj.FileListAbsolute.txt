@@ -22,3 +22,16 @@ C:\Temp\William\Test-master\Teste\Teste.Application\obj\Debug\netcoreapp3.1\Test
 C:\Temp\William\Test-master\Teste\Teste.Application\obj\Debug\netcoreapp3.1\Teste.Application.pdb
 C:\Temp\William\Test-master\Teste\Teste.Application\bin\Debug\netcoreapp3.1\Teste.Infra.CrossCutting.dll
 C:\Temp\William\Test-master\Teste\Teste.Application\bin\Debug\netcoreapp3.1\Teste.Infra.CrossCutting.pdb
+C:\Git\Test\Teste\Teste.Application\bin\Debug\netcoreapp3.1\Teste.Application.deps.json
+C:\Git\Test\Teste\Teste.Application\bin\Debug\netcoreapp3.1\Teste.Application.dll
+C:\Git\Test\Teste\Teste.Application\bin\Debug\netcoreapp3.1\Teste.Application.pdb
+C:\Git\Test\Teste\Teste.Application\bin\Debug\netcoreapp3.1\Teste.Domain.dll
+C:\Git\Test\Teste\Teste.Application\bin\Debug\netcoreapp3.1\Teste.Infra.CrossCutting.dll
+C:\Git\Test\Teste\Teste.Application\bin\Debug\netcoreapp3.1\Teste.Domain.pdb
+C:\Git\Test\Teste\Teste.Application\bin\Debug\netcoreapp3.1\Teste.Infra.CrossCutting.pdb
+C:\Git\Test\Teste\Teste.Application\obj\Debug\netcoreapp3.1\Teste.Application.csprojAssemblyReference.cache
+C:\Git\Test\Teste\Teste.Application\obj\Debug\netcoreapp3.1\Teste.Application.AssemblyInfoInputs.cache
+C:\Git\Test\Teste\Teste.Application\obj\Debug\netcoreapp3.1\Teste.Application.AssemblyInfo.cs
+C:\Git\Test\Teste\Teste.Application\obj\Debug\netcoreapp3.1\Teste.Application.csproj.CopyComplete
+C:\Git\Test\Teste\Teste.Application\obj\Debug\netcoreapp3.1\Teste.Application.dll
+C:\Git\Test\Teste\Teste.Application\obj\Debug\netcoreapp3.1\Teste.Application.pdb

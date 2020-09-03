@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Teste.Application.Interfaces;
 using Teste.Application.Interfaces.Model;
+using Teste.Infra.CrossCutting.CustomError;
 using Teste.WebAPI.Models;
 
 namespace Teste.WebAPI.Controllers
@@ -38,7 +39,8 @@ namespace Teste.WebAPI.Controllers
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            // return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View(new ErrorViewModel(Guid.NewGuid().ToString(), new List<MensagemErro>() { }));
         }
     }
 }

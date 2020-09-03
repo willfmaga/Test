@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Temp\\William\\Test-master\\Teste\\Teste\\Teste.csproj",
+      "projectUniqueName": "C:\\Git\\Test\\Teste\\Teste\\Teste.csproj",
       "projectName": "Teste",
-      "projectPath": "C:\\Temp\\William\\Test-master\\Teste\\Teste\\Teste.csproj",
+      "projectPath": "C:\\Git\\Test\\Teste\\Teste\\Teste.csproj",
       "packagesPath": "C:\\Users\\william.magalhaes\\.nuget\\packages\\",
-      "outputPath": "C:\\Temp\\William\\Test-master\\Teste\\Teste\\obj\\",
+      "outputPath": "C:\\Git\\Test\\Teste\\Teste\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\william.magalhaes\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Temp\\William\\Test-master\\Teste\\Teste.Domain\\Teste.Domain.csproj": {}
+    "C:\\Git\\Test\\Teste\\Teste.Domain\\Teste.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Temp\\William\\Test-master\\Teste\\Teste.Domain\\Teste.Domain.csproj": {
+    "C:\\Git\\Test\\Teste\\Teste.Domain\\Teste.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Temp\\William\\Test-master\\Teste\\Teste.Domain\\Teste.Domain.csproj",
+        "projectUniqueName": "C:\\Git\\Test\\Teste\\Teste.Domain\\Teste.Domain.csproj",
         "projectName": "Teste.Domain",
-        "projectPath": "C:\\Temp\\William\\Test-master\\Teste\\Teste.Domain\\Teste.Domain.csproj",
+        "projectPath": "C:\\Git\\Test\\Teste\\Teste.Domain\\Teste.Domain.csproj",
         "packagesPath": "C:\\Users\\william.magalhaes\\.nuget\\packages\\",
-        "outputPath": "C:\\Temp\\William\\Test-master\\Teste\\Teste.Domain\\obj\\",
+        "outputPath": "C:\\Git\\Test\\Teste\\Teste.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\william.magalhaes\\AppData\\Roaming\\NuGet\\NuGet.Config",

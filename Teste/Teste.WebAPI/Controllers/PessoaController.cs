@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Teste.Application.Interfaces;
 using Teste.Application.Interfaces.Model;
 using Teste.Infra.CrossCutting.CustomError;
+using Teste.WebAPI.Models;
 
 namespace Teste.WebAPI.Controllers
 {
@@ -45,12 +46,13 @@ namespace Teste.WebAPI.Controllers
             {
                 pessoaApp.Incluir(pessoaDTO);
 
+
                 return RedirectToAction("create");
             }
             catch (RepomVaiDeVisaException err)
             {
-                
-                return View();
+                var erro = new ErrorViewModel(Guid.NewGuid().ToString(), err.Erros);
+                return View("error", erro);
             }
         }
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Temp\\William\\Test-master\\Teste\\Teste.Infra.CrossCutting\\Teste.Infra.CrossCutting.csproj": {}
+    "C:\\Git\\Test\\Teste\\Teste.Infra.CrossCutting\\Teste.Infra.CrossCutting.csproj": {}
   },
   "projects": {
-    "C:\\Temp\\William\\Test-master\\Teste\\Teste.Infra.CrossCutting\\Teste.Infra.CrossCutting.csproj": {
+    "C:\\Git\\Test\\Teste\\Teste.Infra.CrossCutting\\Teste.Infra.CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Temp\\William\\Test-master\\Teste\\Teste.Infra.CrossCutting\\Teste.Infra.CrossCutting.csproj",
+        "projectUniqueName": "C:\\Git\\Test\\Teste\\Teste.Infra.CrossCutting\\Teste.Infra.CrossCutting.csproj",
         "projectName": "Teste.Infra.CrossCutting",
-        "projectPath": "C:\\Temp\\William\\Test-master\\Teste\\Teste.Infra.CrossCutting\\Teste.Infra.CrossCutting.csproj",
+        "projectPath": "C:\\Git\\Test\\Teste\\Teste.Infra.CrossCutting\\Teste.Infra.CrossCutting.csproj",
         "packagesPath": "C:\\Users\\william.magalhaes\\.nuget\\packages\\",
-        "outputPath": "C:\\Temp\\William\\Test-master\\Teste\\Teste.Infra.CrossCutting\\obj\\",
+        "outputPath": "C:\\Git\\Test\\Teste\\Teste.Infra.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\william.magalhaes\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,6 +1,8 @@
-﻿using System;
+﻿using AutoMapper;
+using System;
 using Teste.Application.Interfaces;
 using Teste.Application.Interfaces.Model;
+using Teste.Application.Registration;
 using Teste.Application.Validation;
 using Teste.Domain;
 using Teste.Domain.Entities;
@@ -12,7 +14,7 @@ namespace Teste.Application.Services
     public class PessoaApp : IPessoaApp
     {
         private readonly IPessoaService pessoaService;
-        
+        private readonly IMapper mapper = AutoMapperConfig.Mapper;
 
         public PessoaApp(IPessoaService pessoaService)
         {
@@ -21,15 +23,12 @@ namespace Teste.Application.Services
 
         public void Incluir(PessoaDTO pessoaDTO)
         {
-            var pessoa = new Pessoa();
-            //mappear 
+
 
             var resultValidation = new PessoaDTOValidator().Validate(pessoaDTO);
             if (!resultValidation.IsValid) throw new RepomVaiDeVisaException(resultValidation);
 
-            pessoa.Id = new Random().Next(1,100);
-            pessoa.Nome = pessoaDTO.Nome;
-            pessoa.Sobrenome = pessoaDTO.Sobrenome;
+            var pessoa = mapper.Map<Pessoa>(pessoaDTO);
 
             pessoaService.Incluir(pessoa);
         }
