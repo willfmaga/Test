@@ -6,3 +6,11 @@ C:\Users\william.magalhaes\source\repos\Teste\Teste.Domain\obj\Debug\netcoreapp3
 C:\Users\william.magalhaes\source\repos\Teste\Teste.Domain\obj\Debug\netcoreapp3.1\Teste.Domain.AssemblyInfo.cs
 C:\Users\william.magalhaes\source\repos\Teste\Teste.Domain\obj\Debug\netcoreapp3.1\Teste.Domain.dll
 C:\Users\william.magalhaes\source\repos\Teste\Teste.Domain\obj\Debug\netcoreapp3.1\Teste.Domain.pdb
+C:\Temp\William\Test-master\Teste\Teste.Domain\bin\Debug\netcoreapp3.1\Teste.Domain.deps.json
+C:\Temp\William\Test-master\Teste\Teste.Domain\bin\Debug\netcoreapp3.1\Teste.Domain.dll
+C:\Temp\William\Test-master\Teste\Teste.Domain\bin\Debug\netcoreapp3.1\Teste.Domain.pdb
+C:\Temp\William\Test-master\Teste\Teste.Domain\obj\Debug\netcoreapp3.1\Teste.Domain.csprojAssemblyReference.cache
+C:\Temp\William\Test-master\Teste\Teste.Domain\obj\Debug\netcoreapp3.1\Teste.Domain.AssemblyInfoInputs.cache
+C:\Temp\William\Test-master\Teste\Teste.Domain\obj\Debug\netcoreapp3.1\Teste.Domain.AssemblyInfo.cs
+C:\Temp\William\Test-master\Teste\Teste.Domain\obj\Debug\netcoreapp3.1\Teste.Domain.dll
+C:\Temp\William\Test-master\Teste\Teste.Domain\obj\Debug\netcoreapp3.1\Teste.Domain.pdb

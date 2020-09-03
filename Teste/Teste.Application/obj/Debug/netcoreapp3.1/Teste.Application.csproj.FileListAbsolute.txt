@@ -9,3 +9,16 @@ C:\Users\william.magalhaes\source\repos\Teste\Teste.Application\obj\Debug\netcor
 C:\Users\william.magalhaes\source\repos\Teste\Teste.Application\obj\Debug\netcoreapp3.1\Teste.Application.csproj.CopyComplete
 C:\Users\william.magalhaes\source\repos\Teste\Teste.Application\obj\Debug\netcoreapp3.1\Teste.Application.dll
 C:\Users\william.magalhaes\source\repos\Teste\Teste.Application\obj\Debug\netcoreapp3.1\Teste.Application.pdb
+C:\Temp\William\Test-master\Teste\Teste.Application\bin\Debug\netcoreapp3.1\Teste.Application.deps.json
+C:\Temp\William\Test-master\Teste\Teste.Application\bin\Debug\netcoreapp3.1\Teste.Application.dll
+C:\Temp\William\Test-master\Teste\Teste.Application\bin\Debug\netcoreapp3.1\Teste.Application.pdb
+C:\Temp\William\Test-master\Teste\Teste.Application\bin\Debug\netcoreapp3.1\Teste.Domain.dll
+C:\Temp\William\Test-master\Teste\Teste.Application\bin\Debug\netcoreapp3.1\Teste.Domain.pdb
+C:\Temp\William\Test-master\Teste\Teste.Application\obj\Debug\netcoreapp3.1\Teste.Application.csprojAssemblyReference.cache
+C:\Temp\William\Test-master\Teste\Teste.Application\obj\Debug\netcoreapp3.1\Teste.Application.AssemblyInfoInputs.cache
+C:\Temp\William\Test-master\Teste\Teste.Application\obj\Debug\netcoreapp3.1\Teste.Application.AssemblyInfo.cs
+C:\Temp\William\Test-master\Teste\Teste.Application\obj\Debug\netcoreapp3.1\Teste.Application.csproj.CopyComplete
+C:\Temp\William\Test-master\Teste\Teste.Application\obj\Debug\netcoreapp3.1\Teste.Application.dll
+C:\Temp\William\Test-master\Teste\Teste.Application\obj\Debug\netcoreapp3.1\Teste.Application.pdb
+C:\Temp\William\Test-master\Teste\Teste.Application\bin\Debug\netcoreapp3.1\Teste.Infra.CrossCutting.dll
+C:\Temp\William\Test-master\Teste\Teste.Application\bin\Debug\netcoreapp3.1\Teste.Infra.CrossCutting.pdb

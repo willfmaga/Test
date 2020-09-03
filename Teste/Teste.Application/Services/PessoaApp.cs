@@ -1,9 +1,11 @@
 ﻿using System;
 using Teste.Application.Interfaces;
 using Teste.Application.Interfaces.Model;
+using Teste.Application.Validation;
 using Teste.Domain;
 using Teste.Domain.Entities;
 using Teste.Domain.Interface.Services;
+using Teste.Infra.CrossCutting.CustomError;
 
 namespace Teste.Application.Services
 {
@@ -21,9 +23,11 @@ namespace Teste.Application.Services
         {
             var pessoa = new Pessoa();
             //mappear 
-            //validation 
 
-            pessoa.Id = 1;
+            var resultValidation = new PessoaDTOValidator().Validate(pessoaDTO);
+            if (!resultValidation.IsValid) throw new RepomVaiDeVisaException(resultValidation);
+
+            pessoa.Id = new Random().Next(1,100);
             pessoa.Nome = pessoaDTO.Nome;
             pessoa.Sobrenome = pessoaDTO.Sobrenome;
 

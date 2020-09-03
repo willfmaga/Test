@@ -5,7 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="9.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Teste.Domain\Teste.Domain.csproj" />
+    <ProjectReference Include="..\Teste.Infra.CrossCutting\Teste.Infra.CrossCutting.csproj" />
   </ItemGroup>
 
 </Project>

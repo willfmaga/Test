@@ -11,3 +11,16 @@ C:\Users\william.magalhaes\source\repos\Teste\Teste.Data\obj\Debug\netcoreapp3.1
 C:\Users\william.magalhaes\source\repos\Teste\Teste.Data\obj\Debug\netcoreapp3.1\Teste.Data.pdb
 C:\Users\william.magalhaes\source\repos\Teste\Teste.Data\bin\Debug\netcoreapp3.1\Teste.Data.runtimeconfig.json
 C:\Users\william.magalhaes\source\repos\Teste\Teste.Data\bin\Debug\netcoreapp3.1\Teste.Data.runtimeconfig.dev.json
+C:\Temp\William\Test-master\Teste\Teste.Data\bin\Debug\netcoreapp3.1\Teste.Data.deps.json
+C:\Temp\William\Test-master\Teste\Teste.Data\bin\Debug\netcoreapp3.1\Teste.Data.runtimeconfig.json
+C:\Temp\William\Test-master\Teste\Teste.Data\bin\Debug\netcoreapp3.1\Teste.Data.runtimeconfig.dev.json
+C:\Temp\William\Test-master\Teste\Teste.Data\bin\Debug\netcoreapp3.1\Teste.Data.dll
+C:\Temp\William\Test-master\Teste\Teste.Data\bin\Debug\netcoreapp3.1\Teste.Data.pdb
+C:\Temp\William\Test-master\Teste\Teste.Data\bin\Debug\netcoreapp3.1\Teste.Domain.dll
+C:\Temp\William\Test-master\Teste\Teste.Data\bin\Debug\netcoreapp3.1\Teste.Domain.pdb
+C:\Temp\William\Test-master\Teste\Teste.Data\obj\Debug\netcoreapp3.1\Teste.Data.csprojAssemblyReference.cache
+C:\Temp\William\Test-master\Teste\Teste.Data\obj\Debug\netcoreapp3.1\Teste.Data.AssemblyInfoInputs.cache
+C:\Temp\William\Test-master\Teste\Teste.Data\obj\Debug\netcoreapp3.1\Teste.Data.AssemblyInfo.cs
+C:\Temp\William\Test-master\Teste\Teste.Data\obj\Debug\netcoreapp3.1\Teste.Data.csproj.CopyComplete
+C:\Temp\William\Test-master\Teste\Teste.Data\obj\Debug\netcoreapp3.1\Teste.Data.dll
+C:\Temp\William\Test-master\Teste\Teste.Data\obj\Debug\netcoreapp3.1\Teste.Data.pdb

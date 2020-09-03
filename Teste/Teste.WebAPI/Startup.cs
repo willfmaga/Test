@@ -70,7 +70,7 @@ namespace Teste.WebAPI
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Pessoa}/{action=Create}/{id?}");
             });
 
             serviceProvider.GetService<RepomVisaCampanhaContexto>().Database.Migrate();

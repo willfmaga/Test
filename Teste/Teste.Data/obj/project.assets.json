@@ -5742,11 +5742,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\william.magalhaes\\source\\repos\\Teste\\Teste.Data\\Teste.Data.csproj",
+      "projectUniqueName": "C:\\Temp\\William\\Test-master\\Teste\\Teste.Data\\Teste.Data.csproj",
       "projectName": "Teste.Data",
-      "projectPath": "C:\\Users\\william.magalhaes\\source\\repos\\Teste\\Teste.Data\\Teste.Data.csproj",
+      "projectPath": "C:\\Temp\\William\\Test-master\\Teste\\Teste.Data\\Teste.Data.csproj",
       "packagesPath": "C:\\Users\\william.magalhaes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\william.magalhaes\\source\\repos\\Teste\\Teste.Data\\obj\\",
+      "outputPath": "C:\\Temp\\William\\Test-master\\Teste\\Teste.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\william.magalhaes\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5763,8 +5763,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\william.magalhaes\\source\\repos\\Teste\\Teste.Domain\\Teste.Domain.csproj": {
-              "projectPath": "C:\\Users\\william.magalhaes\\source\\repos\\Teste\\Teste.Domain\\Teste.Domain.csproj"
+            "C:\\Temp\\William\\Test-master\\Teste\\Teste.Domain\\Teste.Domain.csproj": {
+              "projectPath": "C:\\Temp\\William\\Test-master\\Teste\\Teste.Domain\\Teste.Domain.csproj"
             }
           }
         }
