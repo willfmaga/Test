@@ -2,18 +2,32 @@
 
 namespace Teste.Data.Migrations
 {
-    public partial class RelacionamentoVeiculoPessoa : Migration
+    public partial class Relacionamento : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
+                name: "Pessoa",
+                columns: table => new
+                {
+                    Id = table.Column<long>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Nome = table.Column<string>(nullable: false),
+                    Sobrenome = table.Column<string>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Pessoa", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Veiculo",
                 columns: table => new
                 {
-                    Id = table.Column<int>(nullable: false)
+                    Id = table.Column<long>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Placa = table.Column<string>(nullable: true),
-                    pessoaId = table.Column<int>(nullable: true)
+                    pessoaId = table.Column<long>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -23,7 +37,7 @@ namespace Teste.Data.Migrations
                         column: x => x.pessoaId,
                         principalTable: "Pessoa",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
@@ -36,6 +50,9 @@ namespace Teste.Data.Migrations
         {
             migrationBuilder.DropTable(
                 name: "Veiculo");
+
+            migrationBuilder.DropTable(
+                name: "Pessoa");
         }
     }
 }

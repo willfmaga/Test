@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "mg1C+AughexPPWp2vicRi44Dpi2RxKgKmnO3/GrKayhLUp3AokCk/UKxJoRv748FXp+qJzg/EKGdOFa0iJVaGg==",
+  "success": true,
+  "projectFilePath": "C:\\Git\\Test\\Teste\\Teste.Application\\Teste.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\william.magalhaes\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
+    "C:\\Users\\william.magalhaes\\.nuget\\packages\\fluentvalidation\\9.2.0\\fluentvalidation.9.2.0.nupkg.sha512",
+    "C:\\Users\\william.magalhaes\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\william.magalhaes\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -6,3 +6,12 @@ C:\Users\william.magalhaes\source\repos\Teste\Teste\obj\Debug\netcoreapp3.1\Test
 C:\Users\william.magalhaes\source\repos\Teste\Teste\obj\Debug\netcoreapp3.1\Teste.AssemblyInfo.cs
 C:\Users\william.magalhaes\source\repos\Teste\Teste\obj\Debug\netcoreapp3.1\Teste.dll
 C:\Users\william.magalhaes\source\repos\Teste\Teste\obj\Debug\netcoreapp3.1\Teste.pdb
+C:\Git\Test\Teste\Teste\bin\Debug\netcoreapp3.1\Teste.deps.json
+C:\Git\Test\Teste\Teste\bin\Debug\netcoreapp3.1\Teste.dll
+C:\Git\Test\Teste\Teste\bin\Debug\netcoreapp3.1\Teste.pdb
+C:\Git\Test\Teste\Teste\obj\Debug\netcoreapp3.1\Teste.csprojAssemblyReference.cache
+C:\Git\Test\Teste\Teste\obj\Debug\netcoreapp3.1\Teste.AssemblyInfoInputs.cache
+C:\Git\Test\Teste\Teste\obj\Debug\netcoreapp3.1\Teste.AssemblyInfo.cs
+C:\Git\Test\Teste\Teste\obj\Debug\netcoreapp3.1\Teste.dll
+C:\Git\Test\Teste\Teste\obj\Debug\netcoreapp3.1\Teste.pdb
+C:\Git\Test\Teste\Teste\obj\Debug\netcoreapp3.1\Teste.csproj.CoreCompileInputs.cache

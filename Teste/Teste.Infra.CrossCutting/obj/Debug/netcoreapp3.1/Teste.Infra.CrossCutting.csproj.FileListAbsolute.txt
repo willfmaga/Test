@@ -6,3 +6,12 @@ C:\Temp\William\Test-master\Teste\Teste.Infra.CrossCutting\obj\Debug\netcoreapp3
 C:\Temp\William\Test-master\Teste\Teste.Infra.CrossCutting\bin\Debug\netcoreapp3.1\Teste.Infra.CrossCutting.pdb
 C:\Temp\William\Test-master\Teste\Teste.Infra.CrossCutting\obj\Debug\netcoreapp3.1\Teste.Infra.CrossCutting.dll
 C:\Temp\William\Test-master\Teste\Teste.Infra.CrossCutting\obj\Debug\netcoreapp3.1\Teste.Infra.CrossCutting.pdb
+C:\Git\Test\Teste\Teste.Infra.CrossCutting\bin\Debug\netcoreapp3.1\Teste.Infra.CrossCutting.deps.json
+C:\Git\Test\Teste\Teste.Infra.CrossCutting\bin\Debug\netcoreapp3.1\Teste.Infra.CrossCutting.dll
+C:\Git\Test\Teste\Teste.Infra.CrossCutting\bin\Debug\netcoreapp3.1\Teste.Infra.CrossCutting.pdb
+C:\Git\Test\Teste\Teste.Infra.CrossCutting\obj\Debug\netcoreapp3.1\Teste.Infra.CrossCutting.csprojAssemblyReference.cache
+C:\Git\Test\Teste\Teste.Infra.CrossCutting\obj\Debug\netcoreapp3.1\Teste.Infra.CrossCutting.AssemblyInfoInputs.cache
+C:\Git\Test\Teste\Teste.Infra.CrossCutting\obj\Debug\netcoreapp3.1\Teste.Infra.CrossCutting.AssemblyInfo.cs
+C:\Git\Test\Teste\Teste.Infra.CrossCutting\obj\Debug\netcoreapp3.1\Teste.Infra.CrossCutting.dll
+C:\Git\Test\Teste\Teste.Infra.CrossCutting\obj\Debug\netcoreapp3.1\Teste.Infra.CrossCutting.pdb
+C:\Git\Test\Teste\Teste.Infra.CrossCutting\obj\Debug\netcoreapp3.1\Teste.Infra.CrossCutting.csproj.CoreCompileInputs.cache

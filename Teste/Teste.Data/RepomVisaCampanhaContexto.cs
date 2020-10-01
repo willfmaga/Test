@@ -18,7 +18,7 @@ namespace Teste.Data
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<Pessoa>().HasKey(t => t.Id);
-            modelBuilder.Entity<Pessoa>().HasMany(p => p.veiculos);
+            modelBuilder.Entity<Pessoa>().HasMany(p => p.veiculos).WithOne(t => t.pessoa).IsRequired();
 
             modelBuilder.Entity<Veiculo>().HasKey(v => v.Id);
             modelBuilder.Entity<Veiculo>().HasOne(v => v.pessoa);

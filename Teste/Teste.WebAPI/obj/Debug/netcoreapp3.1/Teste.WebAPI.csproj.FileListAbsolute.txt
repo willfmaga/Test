@@ -394,3 +394,5 @@ C:\Git\Test\Teste\Teste.WebAPI\obj\Debug\netcoreapp3.1\Teste.WebAPI.Views.pdb
 C:\Git\Test\Teste\Teste.WebAPI\obj\Debug\netcoreapp3.1\Teste.WebAPI.csproj.CopyComplete
 C:\Git\Test\Teste\Teste.WebAPI\obj\Debug\netcoreapp3.1\Teste.WebAPI.dll
 C:\Git\Test\Teste\Teste.WebAPI\obj\Debug\netcoreapp3.1\Teste.WebAPI.pdb
+C:\Git\Test\Teste\Teste.WebAPI\obj\Debug\netcoreapp3.1\Teste.WebAPI.csproj.CoreCompileInputs.cache
+C:\Git\Test\Teste\Teste.WebAPI\obj\Debug\netcoreapp3.1\Teste.WebAPI.genruntimeconfig.cache

@@ -35,3 +35,4 @@ C:\Git\Test\Teste\Teste.Application\obj\Debug\netcoreapp3.1\Teste.Application.As
 C:\Git\Test\Teste\Teste.Application\obj\Debug\netcoreapp3.1\Teste.Application.csproj.CopyComplete
 C:\Git\Test\Teste\Teste.Application\obj\Debug\netcoreapp3.1\Teste.Application.dll
 C:\Git\Test\Teste\Teste.Application\obj\Debug\netcoreapp3.1\Teste.Application.pdb
+C:\Git\Test\Teste\Teste.Application\obj\Debug\netcoreapp3.1\Teste.Application.csproj.CoreCompileInputs.cache

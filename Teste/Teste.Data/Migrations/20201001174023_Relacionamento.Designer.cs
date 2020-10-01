@@ -9,8 +9,8 @@ using Teste.Data;
 namespace Teste.Data.Migrations
 {
     [DbContext(typeof(RepomVisaCampanhaContexto))]
-    [Migration("20200902150701_Inicial")]
-    partial class Inicial
+    [Migration("20201001174023_Relacionamento")]
+    partial class Relacionamento
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -22,9 +22,9 @@ namespace Teste.Data.Migrations
 
             modelBuilder.Entity("Teste.Domain.Entities.Pessoa", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
+                        .HasColumnType("bigint")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Nome")
@@ -38,6 +38,35 @@ namespace Teste.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Pessoa");
+                });
+
+            modelBuilder.Entity("Teste.Domain.Entities.Veiculo", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Placa")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<long>("pessoaId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("pessoaId");
+
+                    b.ToTable("Veiculo");
+                });
+
+            modelBuilder.Entity("Teste.Domain.Entities.Veiculo", b =>
+                {
+                    b.HasOne("Teste.Domain.Entities.Pessoa", "pessoa")
+                        .WithMany("veiculos")
+                        .HasForeignKey("pessoaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

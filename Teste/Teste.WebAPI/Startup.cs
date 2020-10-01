@@ -42,7 +42,7 @@ namespace Teste.WebAPI
 
             services.AddTransient<IPessoaApp, PessoaApp>();
             services.AddTransient<IPessoaService, PessoaService>();
-            services.AddTransient<IPessoaRepository,PessoaRepository>();
+            services.AddTransient<IPessoaRepository, PessoaRepository>();
 
         }
 

@@ -7,10 +7,8 @@ using System.Text;
 namespace Teste.Domain.Entities
 {
     [DataContract]
-    public class Pessoa
+    public class Pessoa : BaseEntity
     {
-        [DataMember]
-        public int Id { get; set; }
         [Required]
         public string Nome { get; set; }
         [Required]

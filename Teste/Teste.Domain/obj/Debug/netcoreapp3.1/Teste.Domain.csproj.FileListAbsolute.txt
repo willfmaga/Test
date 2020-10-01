@@ -14,3 +14,12 @@ C:\Temp\William\Test-master\Teste\Teste.Domain\obj\Debug\netcoreapp3.1\Teste.Dom
 C:\Temp\William\Test-master\Teste\Teste.Domain\obj\Debug\netcoreapp3.1\Teste.Domain.AssemblyInfo.cs
 C:\Temp\William\Test-master\Teste\Teste.Domain\obj\Debug\netcoreapp3.1\Teste.Domain.dll
 C:\Temp\William\Test-master\Teste\Teste.Domain\obj\Debug\netcoreapp3.1\Teste.Domain.pdb
+C:\Git\Test\Teste\Teste.Domain\bin\Debug\netcoreapp3.1\Teste.Domain.deps.json
+C:\Git\Test\Teste\Teste.Domain\bin\Debug\netcoreapp3.1\Teste.Domain.dll
+C:\Git\Test\Teste\Teste.Domain\bin\Debug\netcoreapp3.1\Teste.Domain.pdb
+C:\Git\Test\Teste\Teste.Domain\obj\Debug\netcoreapp3.1\Teste.Domain.csprojAssemblyReference.cache
+C:\Git\Test\Teste\Teste.Domain\obj\Debug\netcoreapp3.1\Teste.Domain.AssemblyInfoInputs.cache
+C:\Git\Test\Teste\Teste.Domain\obj\Debug\netcoreapp3.1\Teste.Domain.AssemblyInfo.cs
+C:\Git\Test\Teste\Teste.Domain\obj\Debug\netcoreapp3.1\Teste.Domain.dll
+C:\Git\Test\Teste\Teste.Domain\obj\Debug\netcoreapp3.1\Teste.Domain.pdb
+C:\Git\Test\Teste\Teste.Domain\obj\Debug\netcoreapp3.1\Teste.Domain.csproj.CoreCompileInputs.cache
