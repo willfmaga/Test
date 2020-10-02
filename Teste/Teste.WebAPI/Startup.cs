@@ -9,6 +9,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Quartz;
+using Quartz.Impl;
 using Teste.Application.Interfaces;
 using Teste.Application.Services;
 using Teste.Data;
@@ -16,6 +18,12 @@ using Teste.Data.Repositories;
 using Teste.Domain;
 using Teste.Domain.Interface.Repositories;
 using Teste.Domain.Interface.Services;
+using Teste.Infra.CrossCutting.JobConfiguration;
+using Teste.Infra.CrossCutting.JobConfiguration.Repositories;
+using Teste.Infra.CrossCutting.JobConfiguration.Repositories.Interface;
+using Teste.Infra.CrossCutting.JobConfiguration.Services.Interfaces;
+using Teste.Infra.CrossCutting.Services;
+using Teste.WebAPI.SchuduleJobs;
 
 namespace Teste.WebAPI
 {
@@ -35,15 +43,25 @@ namespace Teste.WebAPI
 
             var connectionString = Configuration.GetConnectionString("RepomVisaVaiDeVisa");
 
+            services.AddTransient<IJobConfigurationService, JobConfigurationService>();
+
             services.AddDbContext<RepomVisaCampanhaContexto>
             (
                options => options.UseSqlServer(connectionString)
             );
 
+            services.AddDbContext<JobConfigurationContexto>
+            (
+               options => options.UseSqlServer(connectionString)
+            );
+            services.AddTransient<SchuduleJobs.ScheduleJobsConfiguration>();
+
             services.AddTransient<IPessoaApp, PessoaApp>();
             services.AddTransient<IPessoaService, PessoaService>();
             services.AddTransient<IPessoaRepository, PessoaRepository>();
-
+            services.AddTransient<IJobConfigurationApp, JobConfigurationApp>();
+            services.AddTransient<IJobConfigurationRepository, JobConfigurationRepository>();
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -73,7 +91,20 @@ namespace Teste.WebAPI
                     pattern: "{controller=Pessoa}/{action=Create}/{id?}");
             });
 
+            serviceProvider.GetService<JobConfigurationContexto>().Database.Migrate();
             serviceProvider.GetService<RepomVisaCampanhaContexto>().Database.Migrate();
+            //Iniciando os serviços do Quarts
+            this.SchedulerServiceConfiguration(serviceProvider);
+
+        }
+
+        public void SchedulerServiceConfiguration(IServiceProvider services)
+        {
+            StdSchedulerFactory factory = new StdSchedulerFactory();
+            IScheduler scheduler = factory.GetScheduler().Result;
+            scheduler.Start().Wait();
+
+            services.GetService<ScheduleJobsConfiguration>().ScheduleJobs(scheduler);
         }
     }
 }

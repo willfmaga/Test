@@ -165,6 +165,14 @@
             "FluentValidation": {
               "target": "Package",
               "version": "[9.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
             }
           },
           "imports": [

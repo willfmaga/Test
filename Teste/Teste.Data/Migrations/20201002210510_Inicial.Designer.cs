@@ -9,14 +9,14 @@ using Teste.Data;
 namespace Teste.Data.Migrations
 {
     [DbContext(typeof(RepomVisaCampanhaContexto))]
-    [Migration("20201001174023_Relacionamento")]
-    partial class Relacionamento
+    [Migration("20201002210510_Inicial")]
+    partial class Inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "3.1.7")
+                .HasAnnotation("ProductVersion", "3.1.8")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 

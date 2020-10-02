@@ -25,8 +25,6 @@ C:\Temp\William\Test-master\Teste\Teste.Data\obj\Debug\netcoreapp3.1\Teste.Data.
 C:\Temp\William\Test-master\Teste\Teste.Data\obj\Debug\netcoreapp3.1\Teste.Data.dll
 C:\Temp\William\Test-master\Teste\Teste.Data\obj\Debug\netcoreapp3.1\Teste.Data.pdb
 C:\Git\Test\Teste\Teste.Data\bin\Debug\netcoreapp3.1\Teste.Data.deps.json
-C:\Git\Test\Teste\Teste.Data\bin\Debug\netcoreapp3.1\Teste.Data.runtimeconfig.json
-C:\Git\Test\Teste\Teste.Data\bin\Debug\netcoreapp3.1\Teste.Data.runtimeconfig.dev.json
 C:\Git\Test\Teste\Teste.Data\bin\Debug\netcoreapp3.1\Teste.Data.dll
 C:\Git\Test\Teste\Teste.Data\bin\Debug\netcoreapp3.1\Teste.Data.pdb
 C:\Git\Test\Teste\Teste.Data\bin\Debug\netcoreapp3.1\Teste.Domain.dll
@@ -37,5 +35,7 @@ C:\Git\Test\Teste\Teste.Data\obj\Debug\netcoreapp3.1\Teste.Data.AssemblyInfo.cs
 C:\Git\Test\Teste\Teste.Data\obj\Debug\netcoreapp3.1\Teste.Data.csproj.CopyComplete
 C:\Git\Test\Teste\Teste.Data\obj\Debug\netcoreapp3.1\Teste.Data.dll
 C:\Git\Test\Teste\Teste.Data\obj\Debug\netcoreapp3.1\Teste.Data.pdb
-C:\Git\Test\Teste\Teste.Data\obj\Debug\netcoreapp3.1\Teste.Data.csproj.CoreCompileInputs.cache
+C:\Git\Test\Teste\Teste.Data\bin\Debug\netcoreapp3.1\Teste.Data.runtimeconfig.json
+C:\Git\Test\Teste\Teste.Data\bin\Debug\netcoreapp3.1\Teste.Data.runtimeconfig.dev.json
 C:\Git\Test\Teste\Teste.Data\obj\Debug\netcoreapp3.1\Teste.Data.genruntimeconfig.cache
+C:\Git\Test\Teste\Teste.Data\obj\Debug\netcoreapp3.1\Teste.Data.csproj.CoreCompileInputs.cache

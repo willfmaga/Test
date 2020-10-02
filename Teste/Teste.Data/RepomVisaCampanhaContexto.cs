@@ -8,7 +8,7 @@ namespace Teste.Data
 {
     public class RepomVisaCampanhaContexto : DbContext
     {
-        public RepomVisaCampanhaContexto(DbContextOptions options) : base(options)
+        public RepomVisaCampanhaContexto(DbContextOptions<RepomVisaCampanhaContexto> options) : base(options)
         {
             
         }
