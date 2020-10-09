@@ -15,9 +15,16 @@ namespace Teste.Domain
         {
             this.pessoaRepository = pessoaRepository;
         }
+
+        public Pessoa BuscarPorNome(string nome)
+        {
+            return pessoaRepository.BuscarPorNome(nome);
+        }
+
         public void Incluir(Pessoa pessoa)
         {
             pessoaRepository.Incluir(pessoa);
         }
+
     }
 }

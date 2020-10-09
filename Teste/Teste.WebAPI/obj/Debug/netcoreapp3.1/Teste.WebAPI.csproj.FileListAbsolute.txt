@@ -399,5 +399,8 @@ C:\Git\Test\Teste\Teste.WebAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstand
 C:\Git\Test\Teste\Teste.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Git\Test\Teste\Teste.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Git\Test\Teste\Teste.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Git\Test\Teste\Teste.WebAPI\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+C:\Git\Test\Teste\Teste.WebAPI\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
 C:\Git\Test\Teste\Teste.WebAPI\obj\Debug\netcoreapp3.1\Teste.WebAPI.csproj.CoreCompileInputs.cache
 C:\Git\Test\Teste\Teste.WebAPI\obj\Debug\netcoreapp3.1\Teste.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Git\Test\Teste\Teste.WebAPI\obj\Debug\netcoreapp3.1\Razor\Views\Veiculo\Create.cshtml.g.cs

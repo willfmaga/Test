@@ -8,6 +8,6 @@ namespace Teste.Application.Interfaces
     public interface IPessoaApp
     {
         void Incluir(PessoaDTO pessoaDTO);
-
+        PessoaDTO BuscarPorNome(string nome);
     }
 }

@@ -8,5 +8,8 @@ namespace Teste.Domain.Interface.Services
     public interface IPessoaService
     {
         void Incluir(Pessoa pessoa);
+
+        Pessoa BuscarPorNome(string nome);
+       
     }
 }

@@ -23,6 +23,7 @@ using Teste.Infra.CrossCutting.JobConfiguration.Repositories;
 using Teste.Infra.CrossCutting.JobConfiguration.Repositories.Interface;
 using Teste.Infra.CrossCutting.JobConfiguration.Services.Interfaces;
 using Teste.Infra.CrossCutting.Services;
+using Teste.WebAPI.Bus.Rabbit;
 using Teste.WebAPI.SchuduleJobs;
 
 namespace Teste.WebAPI
@@ -54,13 +55,19 @@ namespace Teste.WebAPI
             (
                options => options.UseSqlServer(connectionString)
             );
-            services.AddTransient<SchuduleJobs.ScheduleJobsConfiguration>();
+            services.AddTransient<ScheduleJobsConfiguration>();
 
             services.AddTransient<IPessoaApp, PessoaApp>();
             services.AddTransient<IPessoaService, PessoaService>();
             services.AddTransient<IPessoaRepository, PessoaRepository>();
             services.AddTransient<IJobConfigurationApp, JobConfigurationApp>();
             services.AddTransient<IJobConfigurationRepository, JobConfigurationRepository>();
+            services.AddTransient<IVeiculoApp, VeiculoApp>();
+            services.AddTransient<IVeiculoService, VeiculoService>();
+            services.AddTransient<IVeiculoRepository, VeiculoRepository>();
+
+            //iniciando a leitura de fila 
+            services.AddHostedService<RabbitConsumer>();
             
         }
 
@@ -88,7 +95,7 @@ namespace Teste.WebAPI
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Pessoa}/{action=Create}/{id?}");
+                    pattern: "{controller=Veiculo}/{action=Create}/{id?}");
             });
 
             serviceProvider.GetService<JobConfigurationContexto>().Database.Migrate();

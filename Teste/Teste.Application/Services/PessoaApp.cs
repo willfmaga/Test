@@ -21,6 +21,11 @@ namespace Teste.Application.Services
             this.pessoaService = pessoaService;
         }
 
+        public PessoaDTO BuscarPorNome(string nome)
+        {
+            return mapper.Map<PessoaDTO>(pessoaService.BuscarPorNome(nome));
+        }
+
         public void Incluir(PessoaDTO pessoaDTO)
         {
 
@@ -32,5 +37,6 @@ namespace Teste.Application.Services
 
             pessoaService.Incluir(pessoa);
         }
+        
     }
 }
